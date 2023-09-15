@@ -1,57 +1,66 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Guitar Kit</title>
+    <!--bootstrap-->
+    <!--bootstrap js -->
 
-<head>
-  <meta charset="utf-8">
-  <title>Guitar Kit</title>
-  <!--bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <!--bootstrap js -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-  <!--fuentes-->
-  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-  <!--css-->
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="../favicon.ico">
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script> -->
+    <!--fuentes-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Arvo"
+      rel="stylesheet" />
+    <!--css-->
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="../favicon.ico" />
+  </head>
 
-</head>
-
-<body>
-
-  <h1 id="title">GUITAR 🎸 KIT</h1>
-  <p>Click the buttons OR press the keyboard</p>
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <button class="a guitar">A</button>
-      <button class="b guitar">B</button>
-      <button class="c guitar">C</button>
-      <button class="d guitar">D</button>
-    </div>
-    <div class="row justify-content-center">
-      <button class="e guitar">E</button>
-      <button class="f guitar">F</button>
-      <button class="j guitar">J</button>
-      <button class="m guitar">M</button>
-    </div>
-  </div>
-  <div class="row-12 justify-content-center">
-    <a class="btn btn-dark btn-lg" href="../index.html" role="button">TRY ANOTHER INSTRUMENT!</a>
-  </div>
-
-  <script src="index.js"></script>
-  <footer>
-    <div class="container-fluid">
-      <div>
-        <!-- <img src="https://media.giphy.com/media/oa4Au5xDZ6HJYF6KGH/giphy-downsized.gif" width="300" height="300" alt="minion-dancing"> -->
-        <img src="https://media.giphy.com/media/oa4Au5xDZ6HJYF6KGH/giphy.gif" width="300" height="300"
-          alt="minion-dancing">
-        <i>© Morganti86</i>
+  <body class="body">
+    <h1 class="title">GUITAR 🎸 KIT</h1>
+    <span class="subtitle">Click the buttons OR press the keyboard</span>
+    <div class="container">
+      <div class="column">
+        <!-- <div class="row justify-content-center"> -->
+        <button class="a instrument">A</button>
+        <button class="b instrument">B</button>
+        <button class="c instrument">C</button>
+        <button class="d instrument">D</button>
+        <!-- </div>
+      <div class="row justify-content-center"> -->
+        <button class="e instrument">E</button>
+        <button class="f instrument">F</button>
+        <button class="j instrument">J</button>
+        <button class="m instrument">M</button>
+        <!-- </div> -->
       </div>
     </div>
-  </footer>
-</body>
+    <!-- <div class="row-12 justify-content-center"> -->
+    <div class="container">
+      <!-- <a class="btn btn-dark btn-lg" href="../index.html" role="button" -->
+      <a class="button" href="../index.html" role="button"
+        >TRY ANOTHER INSTRUMENT!</a
+      >
+    </div>
 
+    <footer class="footer">
+      <!-- <img src="https://media.giphy.com/media/oa4Au5xDZ6HJYF6KGH/giphy-downsized.gif" width="300" height="300" alt="minion-dancing"> -->
+      <img
+        src="https://media.giphy.com/media/npuHP188QdL76BV7sY/giphy-downsized.gif"
+        width="300"
+        height="300"
+        alt="minion-dancing" />
+      <i>© Morganti86</i>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>

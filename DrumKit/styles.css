@@ -1,27 +1,11 @@
 body {
-  /* background-color: #5050b9; */
-  background-color: #ff0055;
-  background-image: url(images/drum-background.png);
+  background-image: url("./images/drum-background.jpg");
   background-size: cover;
-  color: white;
-  font-family: 'Arvo', cursive;
-  font-weight: 400;
-  line-height: 2;
-  padding: 1rem;
-  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-h1 {
-  font-size: 5rem;
-  text-shadow: 3px 0 #ff0055;
-}
-
-footer {
-  font-family: sans-serif;
-  text-align: right;
-}
-
-.w {
+/* .w {
   background-image: url(images/tom1.png);
 }
 
@@ -47,63 +31,10 @@ footer {
 
 .l {
   background-image: url(images/crash.png);
-}
-
-
-/* buttons */
-.container-fluid {
-  padding: 2% 3%;
-}
-
-.pad {
-  padding-left: 20%;
-}
-
-.set {
-  margin: 2%;
-}
-
-.pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
-}
-
-
-.drum {
-  outline: none;
-  /* border: 8px solid #3f3f3f; */
-  border: 8px solid black;
-  font-size: 5rem;
-  line-height: 2;
-  font-weight: 900;
-  color: #ff0055;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: hsl(0, 0%, 100%);
-}
-
-.lg {
-  width: 150px;
-  height: 320px;
-}
-
-.col-9 {
-  width: 69%;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
+} */
 
 /* media */
-@media (max-width: 1230px) {
-
+/* @media (max-width: 1230px) {
   .pad {
     padding-left: 15%;
   }
@@ -114,17 +45,15 @@ a {
     height: 140px;
     margin: 4px;
   }
-  
+
   .lg {
     width: 140px;
     height: auto;
   }
 }
 
-/* @media (max-width: 892px) { */
-  
-@media (max-width: 992px) {
 
+@media (max-width: 992px) {
   .pad {
     padding-left: 10%;
   }
@@ -136,29 +65,28 @@ a {
     height: 120px;
     margin: 3px;
   }
-  
+
   .lg {
     width: 120px;
     height: auto;
   }
 }
 
-  @media (max-width: 576px) {
+@media (max-width: 576px) {
+  h1 {
+    font-size: 3rem;
+  }
 
-    h1 {
-      font-size: 3rem; ;
-    }
+  .drum {
+    font-size: 2rem;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+  }
 
-    .drum {
-      font-size: 2rem;
-      border: 5px solid black;
-      width: 100px;
-      height: 100px;
-      margin: 1px;
-    }
-    
-    .lg {
-      width: 100px;
-      height: auto;
-    }
-}
+  .lg {
+    width: 100px;
+    height: auto;
+  }
+} */

@@ -1,13 +1,15 @@
 
 // Detecting Button Press
-var numberOfDrumButtons = document.querySelectorAll(".drum").length;
+var numberOfDrumButtons = document.querySelectorAll(".instrument").length;
 
 for (var i = 0; i < numberOfDrumButtons; i++) {
-    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+    document
+      .querySelectorAll(".instrument")
+      [i].addEventListener("click", function () {
         var key = this.innerHTML.toLowerCase();
         makeSound(key);
         buttonAnimation(key);
-    })
+      });
 }
 
 // Detecting Keyboard Press
