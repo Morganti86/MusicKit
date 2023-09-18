@@ -62,7 +62,7 @@ a {
 }
 
 .kit img:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
   transition: transform 1s ease-out;
 }
 
@@ -71,8 +71,20 @@ img {
   height: 300px;
 }
 
-.set {
-  margin: 2%;
+.button-container {
+  margin: 0 5%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.button {
+  font-size: 1.5rem;
+  background-color: #212529;
+  padding: 2% 8%;
+  border-radius: 15px;
+  border: solid 2px black;
 }
 
 button {
@@ -83,62 +95,8 @@ button {
   box-shadow: 0 3px 4px 0 #dbedf3;
   opacity: 0.5;
 }
-/* 
-.guitar {
-  outline: none;
-  border: 8px solid black;
-  font-size: 5rem;
-  font-family: "Arvo", cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #ff0055;
-  text-shadow: 3px 0 #dbedf3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: hsl(0, 0%, 100%);
-}
-
-.keyboard {
-  outline: none;
-  border: 8px solid black;
-  font-size: 5rem;
-  font-family: "Arvo", cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #ff0055;
-  text-shadow: 3px 0 #dbedf3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: hsl(0, 0%, 100%);
-}
-
-.drum {
-  outline: none;
-  border: 8px solid black;
-  font-size: 5rem;
-  line-height: 2;
-  font-weight: 900;
-  color: #ff0055;
-  text-shadow: 3px 0 #dbedf3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: hsl(0, 0%, 100%);
-} */
 
 .instrument {
-  outline: none;
   font-family: "Arvo", cursive;
   border: 3px solid black;
   font-size: 5rem;
@@ -150,31 +108,16 @@ button {
   width: 150px;
   height: 150px;
   text-align: center;
-  margin: 5% 0;
-  background-color: hsl(0, 0%, 100%);
+  margin: 2% 0;
+  background-color: ivory;
 }
-
-/* .lg {
-  width: 150px;
-  height: 320px;
-}
-
-.col-9 {
-  width: 69%;
-}
-
-.pad {
-  padding-left: 20%;
-} */
 
 .footer {
-  display: flex;
-  justify-content: right;
   align-items: center;
   font-size: 1.5rem;
   font-weight: 900;
   text-shadow: 3px 0 ivory;
-  margin: 2% 0;
+  margin: 3% 0;
 }
 
 .footer img {
@@ -182,25 +125,10 @@ button {
   height: 200px;
 }
 
-.column {
-  margin: 0 5%;
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5%;
-}
-
-.button {
-  background-color: #212529;
-  padding: 2%;
-  border-radius: 15px;
-  border: solid 2px black;
-}
-
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .kit {
-    width: 380px;
-    height: 380px;
+    width: 200px;
+    height: 200px;
   }
 
   img {
@@ -213,32 +141,48 @@ button {
   }
 
   .instrument {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    margin: 3% 0;
   }
-}
+} */
 
 @media (max-width: 480px) {
-  .kit {
-    width: 500px;
-    height: 500px;
-  }
-
-  img {
-    width: 500px;
-    height: 500px;
+  .title {
+    font-size: 50px;
   }
 
   .subtitle {
-    font-size: 26px;
+    font-size: 20px;
+  }
+
+  .kit {
+    width: 200px;
+    height: 200px;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
   }
 
   .instrument {
-    width: 300px;
-    height: 300px;
+    font-size: 3rem;
+    width: 100px;
+    height: 100px;
+    margin: 5% 0;
+  }
+
+  .button {
+    font-size: 1rem;
   }
 
   .footer {
-    display: block;
+    font-size: 1rem;
+  }
+
+  .footer img {
+    width: 100px;
+    height: 100px;
   }
 }
